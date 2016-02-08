@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="marcos.example.com.miscontactos.CrearContactoFragment">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_crearContacto"
+        android:id="@+id/txtCrearContacto"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-15dp"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/imageViewContactos"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/contactos"
+        android:contentDescription="@string/imageView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtNombre"
+        android:hint="@string/tx_nombre"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="@string/tx_telefono"
+        android:id="@+id/txtTelefono"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/txtDireccion"
+        android:hint="@string/tx_direccion"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtEmail"
+        android:hint="@string/tx_correo"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btagragarcontacto"
+        android:id="@+id/btnGuardar"
+        android:enabled="false"
+        android:layout_marginTop="43dp" />
+    </LinearLayout>
+
+</ScrollView>

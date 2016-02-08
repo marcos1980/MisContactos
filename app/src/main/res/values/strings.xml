@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MisContactos</string>
+    <string name="tx_crearContacto">Crear Contacto</string>
+    <string name="btagragarcontacto">Agregar Contacto</string>
+    <string name="tx_direccion">Dirección</string>
+    <string name="tx_correo">Correo electrónico</string>
+    <string name="tx_telefono">Teléfono</string>
+    <string name="tx_nombre">Nombre de Contacto</string>
+    <string name="tx_lista">Lista de Contactos</string>
+    <string name="txViewNombre">Nombre del Contacto</string>
+    <string name="txViewTelefono">Telefono</string>
+    <string name="txViewDireccion">Direccion</string>
+    <string name="txViewEmail">Email</string>
+    <string name="imageView">Foto</string>
+</resources>
